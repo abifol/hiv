@@ -1,0 +1,14 @@
+.image-container {
+  position: relative; /* Set container to relative positioning */
+}
+
+.background-image {
+  display: block; /* Ensure the large image takes up its full space */
+}
+
+.button-image {
+  position: absolute; /* Position the small image absolutely */
+  bottom: 0; /* Align the small image to the bottom of the container */
+  left: 40%; /* Position it in the center horizontally */
+  transform: translateX(0%); /* Adjust to center it properly */
+}

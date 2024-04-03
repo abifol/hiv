@@ -1,0 +1,20 @@
+.image-container {
+  position: relative; /* Set container to relative positioning */
+  font-family: Montserrat;
+}
+
+.background-image {
+  display: block; /* Ensure the large image takes up its full space */
+}
+
+.form-image {
+  position: absolute; /* Position the small image absolutely */
+  bottom: 0;
+  height: ; /* Align the small image to the bottom of the container */
+  width: 100%;
+  left: 0%; /* Position it in the center horizontally */
+  border-radius: 32px 32px 0px 0px;
+  transform: translateX(0%); /* Adjust to center it properly */
+  background-color: #ffffff;
+  padding-bottom: 5px;
+}
